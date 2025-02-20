@@ -10,7 +10,7 @@ const PricingSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full px-4 mb-20">
         {/* Basic Plan */}
         <div className="rounded-xl bg-[#0A0F29] p-8 shadow-lg hover:shadow-xl transition-all border border-[#4E67E5]/40 h-full flex flex-col">
-          <div className="text-[#4d66e5] text-2xl font-semibold">Business Plan</div>
+          <div className="text-[#4d66e5] text-2xl font-semibold">Basic</div>
           <div className="text-5xl font-bold text-white my-5">$39 / month</div>
           <p className="text-gray-300">Best for Small businesses</p>
           
@@ -48,7 +48,7 @@ const PricingSection = () => {
 
         {/* Premium Plan */}
         <div className="rounded-xl bg-[#0A0F29] p-8 shadow-lg hover:shadow-xl transition-all border border-[#4E67E5]/40 h-full flex flex-col">
-          <div className="text-[#4d66e5] text-2xl font-semibold">Business Plan</div>
+          <div className="text-[#4d66e5] text-2xl font-semibold">Premium Plan</div>
           <div className="text-5xl font-bold text-white my-5">$199 / month</div>
           <p className="text-gray-300">Best for growing businesses</p>
 
